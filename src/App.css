@@ -1,0 +1,72 @@
+.error-message{
+    color: red;
+}
+
+.world-map{
+    width: 500px;
+}
+
+ul{
+    list-style: none;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;
+}
+
+.purple{
+    color: purple;
+}
+
+.country-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.country-list{
+    width: 100%;
+    list-style-type: none;
+    flex-wrap: wrap;
+    column-count: 4;
+    background-color: #FAFAFA;
+    margin: 0;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    padding: 20px 40px;
+}
+
+
+
+.population{
+    font-size: 10px;
+}
+
+.regioncolors{
+    font-size: 18px;
+}
+
+.country-flags{
+    width: 18px;
+    margin-right: 4px;
+
+}
+
+li {
+    margin-top: 4px;
+}
+
+
+
