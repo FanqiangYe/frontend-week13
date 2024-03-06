@@ -1,0 +1,111 @@
+.error-message{
+    color: red;
+}
+
+.world-map{
+    width: 500px;
+}
+
+.globes{
+    width: 250px;
+}
+
+ul{
+    list-style: none;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;
+}
+
+.purple{
+    color: purple;
+}
+
+.page-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.country-list{
+    width: 100%;
+    list-style-type: none;
+    flex-wrap: wrap;
+    column-count: 4;
+    background-color: #FAFAFA;
+    margin: 0;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    padding: 20px 40px;
+}
+
+
+
+.population{
+    font-size: 10px;
+}
+
+.regioncolors{
+    font-size: 18px;
+}
+
+.country-flags{
+    width: 18px;
+    margin-right: 4px;
+
+}
+
+.search-flag{
+    width: 35px;
+    margin-right: 8px;
+}
+
+li {
+    margin-top: 4px;
+}
+
+.flag-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-result{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.search-country button{
+    padding: 0 8px;
+}
+
+.search-country input {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.section-divider {
+    border-top: 2px solid #ccc;
+    margin: 20px;
+    width: 100%;
+}
+
+
+
