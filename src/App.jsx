@@ -4,6 +4,7 @@ import {useState} from "react";
 import worldMap from './assets/world_map.png';
 import globes from './assets/4-globes.jpg'
 import regionColors from "./helpers/regionColors.js";
+import roundMillions from "./helpers/roundMillions.js";
 
 
 function App() {
@@ -67,7 +68,9 @@ function App() {
                     </button>
                 </section>
 
-                <section className="page-section">
+                <section className="section-divider"></section>
+
+                <section className="page-section extra">
                     <h2> Search country information</h2>
                     <img src={globes} alt="picture of globe" className="globes"/>
                     <form className="search-country" onSubmit={handleSubmit}>
@@ -79,7 +82,7 @@ function App() {
                             value={searchName}
                             onChange={(event) => setSearchName(event.target.value)}
                         />
-                        <button type="submit"> ZOEK</button>
+                        <button type="submit"> Zoek</button>
                         <p className="error-message">{errorName}</p>
                     </form>
                     {Object.keys(countryInfo).length > 0 &&
@@ -89,9 +92,9 @@ function App() {
                             <h2>{countryInfo.name.common}</h2>
                         </span>
                             <p>{countryInfo.name.common} is situated in {countryInfo.subregion} and the capital
-                                is {countryInfo.capital}</p>
-                            <p></p>
-
+                                is {countryInfo.capital}.</p>
+                            <p>It has a population of {roundMillions(countryInfo.population)} million people and it
+                                borders with {countryInfo.borders.length} neighbouring countries.</p>
                         </article>
                     }
                 </section>
