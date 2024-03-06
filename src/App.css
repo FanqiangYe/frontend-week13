@@ -6,6 +6,10 @@
     width: 500px;
 }
 
+.globes{
+    width: 250px;
+}
+
 ul{
     list-style: none;
 }
@@ -30,10 +34,11 @@ ul{
     color: purple;
 }
 
-.country-section{
+.page-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .country-list{
@@ -64,8 +69,18 @@ ul{
 
 }
 
+.search-flag{
+    width: 35px;
+    margin-right: 8px;
+}
+
 li {
     margin-top: 4px;
+}
+
+.flag-container{
+    display: flex;
+    flex-direction: row;
 }
 
 
